@@ -2,17 +2,85 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: aliceblue;
 }
 .mainContainer {
-    width: 800px;
+    width: 600px;
     margin: auto;
+    background: white;
 }
 /* Start of Navbar */
 nav div {
     padding: 15px;
+
     background-color: #f55a5a;
     text-align: center;
     color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 /* End of Navbar */
+/* Start of Card */
+.cardContainer {
+    /* margin-top: 20px; */
+    padding: 20px 0px;
+    width: 80%;
+    /* height: 100%; */
+    margin: auto;
+    display: flex;
+}
+.card-img img {
+    width: 125px;
+    height: 170px;
+    border-radius: 10px;
+}
+.location-pin {
+    width: 13px;
+}
+.card--country {
+    color: #2b283a;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.card--country p {
+    letter-spacing: 2px;
+}
+.card--country .card--maps {
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 10px;
+    color: gray;
+    padding: 4px;
+    /* border-bottom: 1px solid gray; */
+    cursor: pointer;
+}
+.card-info {
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    /* margin-left: 25px; */
+    /* border: 1px solid saddlebrown; */
+    padding: 20px;
+    justify-content: center;
+}
+.card-info .card--title {
+    margin: 10px 0 20px 0;
+    color: #2b283a;
+}
+.card-info .card--date {
+    font-weight: bold;
+    font-size: 10px;
+    color: #2b283a;
+}
+.card-info .card--desctiption {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+/* End of Card */
